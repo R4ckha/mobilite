@@ -1,10 +1,10 @@
 body{
-    font-family: sans-serif;  
+    font-family: $main-font;  
 }
 
 .bubble-text{
-    background: #139ee0; 
-    color:#fff; 
+    background: $question-background-color; 
+    color:$bubble-text-color; 
     padding:7px 15px;
     width: 350px;
     border-radius: 10px;
@@ -17,19 +17,19 @@ body{
         content: "";
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
-        border-top: 20px solid #139ee0;
+        border-top: 20px solid $question-background-color;
         position: absolute;
     }
 }
 
 .bubble-reponse{
-    background: rgb(0, 195, 255); // Ici le background est défini, car on veut pas utiliser la couleur de la classe bubble-text
+    background: $reponse-background-color; // Ici le background est défini, car on veut pas utiliser la couleur de la classe bubble-text
     margin-left: 100px;
     &:after {
         content: "";
         border-left: 40px solid transparent;
         border-right: 40px solid transparent;
-        border-top: 40px solid rgb(0, 195, 255);
+        border-top: 40px solid $reponse-background-color;
         position: absolute;
     }
 }
