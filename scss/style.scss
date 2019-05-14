@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;  
+}
+
+.bubble-text{
+    background: #139ee0; 
+    color:#fff; 
+    padding:7px 15px;
+    border-radius:3px; 
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.bubble-question{
+    background: #139ee0;
+    &:after {
+        content: "";
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #139ee0;
+        position: absolute;
+    }
+}
+
+.bubble-reponse{
+    background: rgb(0, 195, 255);
+    margin-left: 100px;
+    &:after {
+        content: "";
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 40px solid rgb(0, 195, 255);
+        position: absolute;
+    }
+}

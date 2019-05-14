@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Formulaire mobilité</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+	</head>
+	<body>
+		<form action="#" method="post">
+
+			<!-- Civilité -->
+			<input type="radio" name="civ" id="mr">
+			<label for="mr">Monsieur</label>
+			<input type="radio" name="civ" id="mme">
+			<label for="mme">Madame</label>
+			<br>
+			
+			<!-- Informations personnelles -->
+			<input type="text" name="nom" placeholder="nom">
+			<br>
+			<input type="text" name="prenom" placeholder="prenom">
+			<br>
+			<input type="text" name="anniversaire" placeholder="anniversaire">
+			<br>
+			<input type="text" name="ville" placeholder="ville">
+			<br>
+			<input type="text" name="cp" placeholder="cp">
+			<br>
+			<input type="email" name="email" placeholder="email">
+			<br>
+			<input type="tel" name="telephone" placeholder="telephone">
+			<br>
+			<input type="text" name="anniversaire-chomage" placeholder="date de début de chômage">
+			<br>
+
+			<select name="situation" id="">
+				<option value="1">Célibataire</option>
+				<option value="2">Marié</option>
+				<option value="3">Veuf</option>
+				<option value="4">Divorcé</option>
+			</select>
+			<br>
+
+			<!--<p>Combien avez-vous d'enfants ?</p>  -->
+			<div class="bubble-text bubble-question">
+				<p>Combien as-tu d'enfants ?</p>
+			</div>
+			<div class="bubble-text bubble-reponse">
+				<input type="radio" name="enfants" id="child-0">
+				<label for="child-0">0</label>
+				<input type="radio" name="enfants" id="child-1">
+				<label for="child-1">1</label>
+				<input type="radio" name="enfants" id="child-2">
+				<label for="child-2">2</label>
+				<input type="radio" name="enfants" id="child-3">
+				<label for="child-3">3</label>
+				<input type="radio" name="enfants" id="child-4">
+				<label for="child-4">4</label>
+				<input type="radio" name="enfants" id="child-5">
+				<label for="child-5">5 ou +</label>
+			</div>
+			<br>
+		
+			<!--  -->
+			<!-- <p>Avez-vous une carte de transport ?</p> -->
+			<p>As-tu une carte de transport ?</p>
+
+			<input type="radio" name="carte-transport" id="carte-transport-1">
+			<label for="carte-transport-1">Carte Zou</label>
+			<input type="radio" name="carte-transport" id="carte-transport-2">
+			<label for="carte-transport-2">Carte Transpass</label>
+			<input type="radio" name="carte-transport" id="carte-transport-3">
+			<label for="carte-transport-3">Aucune</label>
+			<br>
+
+			<!-- <p>Avez-vous le code de la route ?</p> -->
+			<p>As-tu le code de la route ?</p>
+
+			<input type="radio" name="" id="code-route-1">
+			<label for="code-route-1">oui</label>
+			<input type="radio" name="" id="code-route-2">
+			<label for="code-route-2">non</label>
+			<br>
+
+			<!-- <p>Etes-vous inscrit à une auto-école ?</p> -->
+			<p>Es-tu inscrit à une auto-école ?</p>
+
+			<input type="radio" name="auto-ecole" id="auto-ecole-1">
+			<label for="auto-ecole-1">oui</label>
+			<input type="radio" name="auto-ecole" id="auto-ecole-2">
+			<label for="auto-ecole-2">non</label>
+			<br>
+
+			<!-- <p>Utilisez-vous le covoiturage ?</p> -->
+			<p>Utilise-tu le covoiturage ?</p>
+
+			<input type="radio" name="covoiturage" id="covoiturage-1">
+			<label for="covoiturage-1">oui</label>
+			<input type="radio" name="covoiturage" id="covoiturage-2">
+			<label for="covoiturage-2">non</label>
+			<br>
+
+			<!-- <p>Avez-vous votre permis de conduire ?</p> -->
+			<p>As-tu  votre permis de conduire ?</p>
+
+			<input type="radio" name="permis" id="permis-1">
+			<label for="permis-1">oui</label>
+			<input type="radio" name="permis" id="permis-2">
+			<label for="permis-2">non</label>
+			<input type="radio" name="permis" id="permis-3">
+			<label for="permis-3">en cours</label>
+			<br>
+
+			<!-- <p>Utilisez-vous un 2 roues pour vous déplacer ?</p> -->
+			<p>Utilise-tu un 2 roues pour vous déplacer ?</p>
+
+			<input type="checkbox" name="2-roues" id="2-roues-1">
+			<label for="2-roues-1">oui</label>
+			<br>
+
+			<!-- <p>Utilisez-vous un vélo ?</p> -->
+			<p>Utilise-tu un vélo ?</p>
+
+			<input type="checkbox" name="velo" id="velo-1">
+			<label for="velo-1">oui</label>
+			<br>
+
+			<!-- <p>Etes-vous prêt à aller travailler à pied ?</p> -->
+			<p>Es-tu prêt à aller travailler à pied ?</p>
+
+			<input type="checkbox" name="pied" id="pied-1">
+			<label for="pied-1">oui</label>
+			<br>
+
+			<!-- <p>Etes-vous inscrit sur un sîte de covoiturage ?</p> -->
+			<p>Es-tu inscrit sur un sîte de covoiturage ?</p>
+
+			<input type="checkbox" name="covoit" id="covoit-1">
+			<label for="covoit-1">oui</label>
+			<br>
+
+			<!-- <p>Utilisez-vous d'autres moyens de transports ?</p> -->
+			<p>Utilise-tu d'autres moyens de transports ?</p>
+
+			<input type="checkbox" name="autres" id="autres-1">
+			<label for="">train</label>
+
+			<input type="checkbox" name="autres" id="autres-2">
+			<label for="autres-2">bus</label>
+
+			<input type="checkbox" name="autres" id="autres-3">
+			<label for="autres-3">autres</label>
+			<br>
+		</form>
+	</body>
+</html>
