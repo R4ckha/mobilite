@@ -6,14 +6,13 @@ body{
     background: #139ee0; 
     color:#fff; 
     padding:7px 15px;
-    border-radius:3px; 
     width: 350px;
     border-radius: 10px;
     margin-bottom: 40px;
 }
 
 .bubble-question{
-    background: #139ee0;
+    // background: #139ee0; <-- Ici ont as pas besoin de définir un background car il va hérité de la couleur de la classe bubble-text
     &:after {
         content: "";
         border-left: 20px solid transparent;
@@ -24,7 +23,7 @@ body{
 }
 
 .bubble-reponse{
-    background: rgb(0, 195, 255);
+    background: rgb(0, 195, 255); // Ici le background est défini, car on veut pas utiliser la couleur de la classe bubble-text
     margin-left: 100px;
     &:after {
         content: "";

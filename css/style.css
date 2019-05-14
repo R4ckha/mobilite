@@ -6,15 +6,11 @@ body {
   background: #139ee0;
   color: #fff;
   padding: 7px 15px;
-  border-radius: 3px;
   width: 350px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
 
-.bubble-question {
-  background: #139ee0;
-}
 .bubble-question:after {
   content: "";
   border-left: 20px solid transparent;
