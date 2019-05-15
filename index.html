@@ -10,13 +10,17 @@
 	</head>
 	<body>
 		<form action="#" method="post">
-			<div id="bloc1">
+			
 				<!-- Civilité -->
-				<input type="radio" name="civ" id="mr">
-				<label for="mr">Monsieur</label>
-				<input type="radio" name="civ" id="mme">
-				<label for="mme">Madame</label>
-				
+				<div class="centrer">
+					<input type="radio" name="civ" id="mr">
+					<label for="mr">Monsieur</label>
+					<input type="radio" name="civ" id="mme">
+					<label for="mme">Madame</label>
+				</div>
+
+				<div class="form-bloc" id="bloc1">
+
 				<!-- Informations personnelles -->
 				<input type="text" name="nom" placeholder="nom">
 				<br>
@@ -33,10 +37,12 @@
 				<input type="tel" name="telephone" placeholder="telephone">
 				<br>
 				<input type="text" name="anniversaire-chomage" placeholder="date de début de chômage">
-				<a href="#bloc2">Suivant</a>
+				<div class="centrer">
+					<a href="#bloc2">Suivant</a>
+				</div>
 			</div>
 			
-			<div id="bloc2">
+			<div class="initial form-bloc">
 				<select name="situation" id="">
 					<option value="1">Célibataire</option>
 					<option value="2">Marié</option>
@@ -45,7 +51,7 @@
 				</select>
 			</div>
 			
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Combien as-tu d'enfants ?</p>
 				</div>
@@ -65,7 +71,7 @@
 				</div>
 			</div>
 			
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>As-tu une carte de transport ?</p>
 				</div>
@@ -80,7 +86,7 @@
 				</div>
 			</div>
 			
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>As-tu le code de la route ?</p>
 				</div>
@@ -92,7 +98,7 @@
 				</div>
 			</div>
 			
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Es-tu inscrit à une auto-école ?</p>
 				</div>
@@ -104,7 +110,7 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Utilise-tu le covoiturage ?</p>
 				</div>
@@ -116,7 +122,7 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>As-tu ton permis de conduire ?</p>
 				</div>
@@ -130,7 +136,7 @@
 				</div>
 			</div>
 			
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Utilises-tu un 2 roues pour te déplacer ?</p>
 				</div>
@@ -140,7 +146,7 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Utilise-tu un vélo ?</p>
 				</div>
@@ -150,7 +156,7 @@
 				</div>
 			</div>
 			
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Es-tu prêt à aller travailler à pied ?</p>
 				</div>
@@ -160,7 +166,7 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Es-tu inscrit sur un sîte de covoiturage ?</p>
 				</div>
@@ -170,7 +176,7 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="initial form-bloc">
 				<div class="bubble-text bubble-question">
 					<p>Utilises-tu d'autres moyens de transports ?</p>
 				</div>
@@ -186,12 +192,12 @@
 				</div>
 			</div>
 
-			<div>
+			<div class="initial form-bloc">
 				<input type="checkbox" name="consent" id="">
 				<p>Mes données, blablabla</p>
+				<input type="submit" value="go go power ranger">
 			</div>
 
-			<input type="submit" value="go go power ranger">
 		</form>
 	</body>
 </html>

@@ -1,7 +1,25 @@
 body{
     font-family: $main-font;  
+    display: flex;
+    justify-content: center;
 }
 
+form{
+    width: 40%;
+}
+
+.form-bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.initial{ 
+    display: none;
+}
+
+.centrer{
+    justify-content: center;
+}
 .bubble-text{
     background: $question-background-color; 
     color:$bubble-text-color; 
