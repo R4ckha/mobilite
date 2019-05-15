@@ -1,6 +1,5 @@
 body {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 .bubble-text {
   background: #139ee0;
@@ -8,27 +7,23 @@ body {
   padding: 7px 15px;
   width: 350px;
   border-radius: 10px;
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
 .bubble-question:after {
   content: "";
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid #139ee0;
-  position: absolute;
-}
+  position: absolute; }
 
 .bubble-reponse {
   background: #00c3ff;
-  margin-left: 100px;
-}
-.bubble-reponse:after {
-  content: "";
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 40px solid #00c3ff;
-  position: absolute;
-}
+  margin-left: 100px; }
+  .bubble-reponse:after {
+    content: "";
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #00c3ff;
+    position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
