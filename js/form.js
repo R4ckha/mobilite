@@ -1,3 +1,3 @@
 window.onload = () => {
-	console.log("coucou");
+	let blocIsDisplayed = document.querySelector('');
 }
