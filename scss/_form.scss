@@ -8,7 +8,8 @@ body{
     padding:7px 15px;
     width: 350px;
     border-radius: 10px;
-    margin-bottom: 40px;
+	margin-bottom: 40px;
+	position: relative;
 }
 
 .bubble-question{
@@ -30,6 +31,8 @@ body{
         border-left: 40px solid transparent;
         border-right: 40px solid transparent;
         border-top: 40px solid $reponse-background-color;
-        position: absolute;
+		position: absolute;
+		right: 0;
+		z-index: -1;
     }
 }
