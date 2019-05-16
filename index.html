@@ -11,16 +11,14 @@
 	<body>
 		<form action="#" method="post">
 			
-			<!-- Civilité -->
-			<div class="centrer form-civ">
-				<input type="radio" name="civ" id="mr">
-				<label for="mr">Monsieur</label>
-				<input type="radio" name="civ" id="mme">
-				<label for="mme">Madame</label>
-			</div>
-
-			<div class="form-bloc" id="bloc1">
-
+			<div class="form-bloc starting-bloc">
+				<!-- Civilité -->
+				<div class="centrer form-civ">
+					<input type="radio" name="civ" id="mr">
+					<label for="mr">Monsieur</label>
+					<input type="radio" name="civ" id="mme">
+					<label for="mme">Madame</label>
+				</div>
 				<!-- Informations personnelles -->
 				<input type="text" name="nom" placeholder="nom">
 				<br>
@@ -38,12 +36,13 @@
 				<br>
 				<input type="text" name="anniversaire-chomage" placeholder="date de début de chômage">
 				<div class="centrer">
-					<a href="#bloc2">Suivant</a>
+					<a href="#" class="next-button">Commencer</a>
 				</div>
 			</div>
 			
-			<div class="initial form-bloc">
-				<select name="situation" id="">
+			<div class="initial form-bloc" id="bloc-2">
+				<select name="situation" id="situation">
+					<option value="0">-- Votre situation --</option>
 					<option value="1">Célibataire</option>
 					<option value="2">Marié</option>
 					<option value="3">Veuf</option>
@@ -51,7 +50,7 @@
 				</select>
 			</div>
 			
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-3">
 				<div class="bubble-text bubble-question">
 					<p>Combien as-tu d'enfants ?</p>
 				</div>
@@ -71,7 +70,7 @@
 				</div>
 			</div>
 			
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-4">
 				<div class="bubble-text bubble-question">
 					<p>As-tu une carte de transport ?</p>
 				</div>
@@ -86,7 +85,7 @@
 				</div>
 			</div>
 			
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-5">
 				<div class="bubble-text bubble-question">
 					<p>As-tu le code de la route ?</p>
 				</div>
@@ -98,7 +97,7 @@
 				</div>
 			</div>
 			
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-6">
 				<div class="bubble-text bubble-question">
 					<p>Es-tu inscrit à une auto-école ?</p>
 				</div>
@@ -110,7 +109,7 @@
 				</div>
 			</div>
 
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-7">
 				<div class="bubble-text bubble-question">
 					<p>Utilise-tu le covoiturage ?</p>
 				</div>
@@ -122,7 +121,7 @@
 				</div>
 			</div>
 
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-8">
 				<div class="bubble-text bubble-question">
 					<p>As-tu ton permis de conduire ?</p>
 				</div>
@@ -136,7 +135,7 @@
 				</div>
 			</div>
 			
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-9">
 				<div class="bubble-text bubble-question">
 					<p>Utilises-tu un 2 roues pour te déplacer ?</p>
 				</div>
@@ -146,7 +145,7 @@
 				</div>
 			</div>
 
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-10">
 				<div class="bubble-text bubble-question">
 					<p>Utilise-tu un vélo ?</p>
 				</div>
@@ -156,7 +155,7 @@
 				</div>
 			</div>
 			
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-11">
 				<div class="bubble-text bubble-question">
 					<p>Es-tu prêt à aller travailler à pied ?</p>
 				</div>
@@ -166,7 +165,7 @@
 				</div>
 			</div>
 
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-12">
 				<div class="bubble-text bubble-question">
 					<p>Es-tu inscrit sur un sîte de covoiturage ?</p>
 				</div>
@@ -176,7 +175,7 @@
 				</div>
 			</div>
 
-			<div class="initial form-bloc">
+			<div class="initial form-bloc" id="bloc-13">
 				<div class="bubble-text bubble-question">
 					<p>Utilises-tu d'autres moyens de transports ?</p>
 				</div>
@@ -190,13 +189,14 @@
 					<input type="checkbox" name="autres" id="autres-3">
 					<label for="autres-3">autres</label>
 				</div>
+				<div class="initial form-bloc">
+					<input type="checkbox" name="consent" id="">
+					<p>Mes données, blablabla</p>
+					<input type="submit" value="go go power ranger">
+				</div>
 			</div>
 
-			<div class="initial form-bloc">
-				<input type="checkbox" name="consent" id="">
-				<p>Mes données, blablabla</p>
-				<input type="submit" value="go go power ranger">
-			</div>
+			
 
 		</form>
 	</body>
