@@ -17,8 +17,27 @@ input[type=tel] {
   width: 80%;
 }
 
+input[type=radio] {
+  position: absolute;
+  left: -9999px;
+}
+
 .input-radio {
   margin: 10px 0;
+}
+
+label {
+  background: #e4dfdf;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+label:hover {
+  cursor: pointer;
+}
+
+input[type=radio]:checked + .radio-civ {
+  background: #0017e9;
 }
 
 .form-bloc {
