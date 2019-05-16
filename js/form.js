@@ -20,7 +20,7 @@ window.onload = () => {
 		
 		let validResponses = new Array("Célibataire","Marié","Veuf","Divorcé");
 		if (validResponses.indexOf(response) != -1) {
-			console.log('OK bitch');
+			console.log('OK');
 		} else {
 			console.log('NOOOOPE');
 		}
