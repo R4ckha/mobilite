@@ -15,6 +15,10 @@ input[type=tel] {
   width: 80%;
 }
 
+.input-radio {
+  margin: 10px 0;
+}
+
 .form-bloc {
   display: flex;
   flex-direction: column;
@@ -59,6 +63,21 @@ input[type=tel] {
   position: absolute;
   right: 0;
   z-index: -1;
+}
+
+#next-button {
+  color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 3px;
+  background-color: #0048cd;
+  box-shadow: none;
+  text-decoration: none;
+  display: block;
+  margin: 30px 0;
+}
+#next-button:hover {
+  background-color: dodgerblue;
 }
 
 /*# sourceMappingURL=style.css.map */

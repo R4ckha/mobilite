@@ -13,7 +13,10 @@ input[type=text],
 input[type=email],
 input[type=tel]{
     width: 80%;
+}
 
+.input-radio{
+    margin:10px 0;
 }
 
 .form-bloc{
@@ -60,5 +63,19 @@ input[type=tel]{
 		position: absolute;
 		right: 0;
 		z-index: -1;
+    }
+}
+#next-button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 3px;
+    background-color: rgb(0, 72, 205);
+    box-shadow: none;
+    text-decoration: none;
+    display: block;
+    margin:30px 0;
+    &:hover{
+        background-color: dodgerblue
     }
 }
