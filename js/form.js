@@ -19,7 +19,7 @@ window.onload = () => {
 			response = options[this.selectedIndex].innerHTML;
 		
 		let validResponses = new Array("Célibataire","Marié","Veuf","Divorcé");
-		if (validResponses.indexOf(response) != -1) {
+		if ( validResponses.indexOf(response) != -1 ) {
 			displayNextELement(this);	
 		} else {
 			displayErrorMessage();
@@ -33,7 +33,7 @@ window.onload = () => {
 	}
 
 	let displayErrorMessage = function(){
-		 
+		
 	}
 }
 
