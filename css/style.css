@@ -1,144 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-body {
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  font-family: "Raleway", sans-serif;
-  flex-direction: column;
-  align-items: center;
-}
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - scss/app.css
 
-.titre {
-  align: center;
-  margin-top: 100px;
-}
-
-form {
-  width: 40%;
-  background: #e08212;
-  margin-top: 100px;
-}
-
-input[type=text],
-input[type=email],
-input[type=tel] {
-  width: 80%;
-}
-
-input[type=radio] {
-  position: absolute;
-  left: -9999px;
-}
-
-.input-radio {
-  margin: 10px 0;
-}
-
-label {
-  background: #e4dfdf;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-}
-label:hover {
-  cursor: pointer;
-}
-
-input[type=radio]:checked + .radio-civ {
-  background: #0017e9;
-}
-
-.form-bloc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.initial {
-  display: none;
-}
-
-.centrer {
-  justify-content: center;
-}
-
-.bubble-text {
-  background: #139ee0;
-  color: #ffffff;
-  padding: 7px 15px;
-  width: 350px;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-.bubble-question:after {
-  content: "";
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #139ee0;
-  position: absolute;
-}
-
-.bubble-reponse {
-  background: #00c3ff;
-  margin-left: 100px;
-}
-.bubble-reponse:after {
-  content: "";
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 40px solid #00c3ff;
-  position: absolute;
-  right: 0;
-  z-index: -1;
-}
-
-#next-button {
-  color: white;
-  font-weight: bold;
-  padding: 10px 40px;
-  border-radius: 3px;
-  background-color: #0048cd;
-  box-shadow: none;
-  text-decoration: none;
-  display: block;
-  margin: 30px 0;
-}
-#next-button:hover {
-  background-color: dodgerblue;
-}
-
-nav ul {
-  display: flex;
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-  background-color: #000000;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-}
-
-nav li {
-  display: inline-block;
-  width: 200px;
-  height: 40px;
-  margin: 0px;
-  padding: 0px;
-  border-right: 1px solid #000000;
-  text-align: center;
-  line-height: 40px;
-}
-
-nav li a {
-  display: block;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-nav li :hover {
-  background-color: #3388BB;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+C:/Ruby26-x64/bin/sass:23:in `load'
+C:/Ruby26-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss/app.css"; }
