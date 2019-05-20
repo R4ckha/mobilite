@@ -21,9 +21,16 @@ window.onload = () => {
 		let validResponses = new Array("Célibataire","Marié","Veuf","Divorcé");
 		if (validResponses.indexOf(response) != -1) {
 			console.log('OK');
+			getNextELement(this);
 			
 		} else {
 			console.log('NOOOOPE');
 		}
 	}
+
+	let getNextELement = function(el){
+		let actualStep = el.parentElement;
+		console.log(actualStep.nextElementSibling);	
+	}
 }
+
