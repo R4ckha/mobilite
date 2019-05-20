@@ -20,17 +20,20 @@ window.onload = () => {
 		
 		let validResponses = new Array("Célibataire","Marié","Veuf","Divorcé");
 		if (validResponses.indexOf(response) != -1) {
-			console.log('OK');
-			getNextELement(this);
-			
+			displayNextELement(this);	
 		} else {
-			console.log('NOOOOPE');
+			displayErrorMessage();
 		}
 	}
 
-	let getNextELement = function(el){
+	let displayNextELement = function(el){
 		let actualStep = el.parentElement;
-		console.log(actualStep.nextElementSibling);	
+		actualStep.style.display = "none";
+		actualStep.nextElementSibling.style.display = "flex";	
+	}
+
+	let displayErrorMessage = function(){
+		 
 	}
 }
 
