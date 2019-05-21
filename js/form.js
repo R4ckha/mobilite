@@ -1,5 +1,7 @@
 window.onload = () => {
 
+	// ON AS COMPLETEMENT OUBLIE DE RECUPERER LES DONNEES DU FORMULAIRE :D
+	
 	// Selection du bouton suivant
 	let nextButton = document.querySelector('#next-button'),
 		situation = document.querySelector('#situation'),

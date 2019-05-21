@@ -1,10 +1,9 @@
 body{
-    font-family: $main-font;  
     display: flex;
 	justify-content: center;
-    font-family: 'Raleway', sans-serif;
     flex-direction: column;
     align-items: center;
+    font-family: $main-font;  
 }
 
 .titre{
@@ -14,8 +13,8 @@ body{
 
 form{
     width: 40%;
-    background: $form-background-color;
     margin-top: 100px;
+    background: $form-background-color;
 }
 
 input[type=text],
@@ -34,17 +33,20 @@ input[type=radio]{
 }
 
 label {
-    background: rgb(228, 223, 223);
-    height: 50px;
+	display: flex;
+    height: 35px;
+    width: 110px;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+    background: $label-background-color;
+	border-radius: 5px;
     &:hover{
         cursor: pointer;
     }
 }
 
 input[type=radio]:checked + .radio-civ{
-    background: rgb(0, 23, 233);
+    background: $next-btn-background-color;
 }
 
 .form-bloc{
@@ -52,58 +54,63 @@ input[type=radio]:checked + .radio-civ{
     flex-direction: column;
     align-items: center ;
 }
+
 .initial{ 
     display: none;
 }
 
 .centrer{
-    justify-content: center;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
 }
+
 .bubble-text{
-    background: $question-background-color; 
-    color:$bubble-text-color; 
-    padding:7px 15px;
-    width: 350px;
-    border-radius: 10px;
-	margin-bottom: 40px;
 	position: relative;
+    width: 350px;
+	margin-bottom: 40px;
+    padding:7px 15px;
+    background: $question-background-color; 
+    border-radius: 10px;
+    color:$bubble-text-color; 
 }
 
 .bubble-question{
     // background: #139ee0; <-- Ici ont as pas besoin de définir un background car il va hérité de la couleur de la classe bubble-text
     &:after {
         content: "";
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
-        border-top: 20px solid $question-background-color;
         position: absolute;
+        border-top: 20px solid $question-background-color;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
     }
 }
 
 .bubble-reponse{
+	margin-left: 100px;
     background: $reponse-background-color; // Ici le background est défini, car on veut pas utiliser la couleur de la classe bubble-text
-    margin-left: 100px;
     &:after {
         content: "";
-        border-left: 40px solid transparent;
-        border-right: 40px solid transparent;
-        border-top: 40px solid $reponse-background-color;
 		position: absolute;
+        border-top: 40px solid $reponse-background-color;
+        border-right: 40px solid transparent;
+        border-left: 40px solid transparent;
 		right: 0;
 		z-index: -1;
     }
 }
+
 #next-button {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 3px;
-    background-color: rgb(0, 72, 205);
-    box-shadow: none;
-    text-decoration: none;
     display: block;
     margin:30px 0;
+    padding: 10px 40px;
+    background-color: $next-btn-background-color;
+    border-radius: 3px;
+    box-shadow: none;
+    font-weight: bold;
+    text-decoration: none;
+    color: $bubble-text-color; /* Ouais, j'avais la flemme de crée une nouvelle variable... */
     &:hover{
-        background-color: dodgerblue
+        background-color: $next-btn-background-color-hover;
     }
 }

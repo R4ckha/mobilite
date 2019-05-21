@@ -1,9 +1,14 @@
 @import "fonts"; // test d'import d'un partiel dans un partiel (it's work)
 
-$main-font:sans-serif;
+$main-font: 'Raleway', sans-serif;
 
 $bubble-text-color:#ffffff;
 
 $question-background-color:#59C6D1;
 $reponse-background-color: #9DD3D9;
 $form-background-color: #3b4f51;
+
+$label-background-color: #e4dfdf;
+
+$next-btn-background-color: #0048cd;
+$next-btn-background-color-hover: #1e90ff;
