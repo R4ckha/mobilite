@@ -12,6 +12,8 @@ body {
 header nav {
   height: 313px;
   background: url("../img/logo2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 313px;
 }
 
 .titre {
