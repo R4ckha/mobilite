@@ -21,7 +21,9 @@ window.onload = () => {
 	for (var i = 0; i < previousButton.length; i++) {
 		previousButton[i].addEventListener('click', function (e) {
 			let actualStep = this.parentElement.parentElement,
-				previousStep = actualStep;
+				previousStep = actualStep.previousElementSibling;
+				actualStep.style.display = "none";
+				previousStep.style.display = "flex";
 		});
 	}
 
