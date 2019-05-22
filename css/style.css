@@ -143,12 +143,10 @@ header nav {
   height: 313px;
   background: url("../img/logo2.png");
   background-repeat: no-repeat;
-  background-size: 100% 250px;
-}
+  background-size: 100% 250px; }
 
 .footer {
   height: 200px;
-  width: 100%;
-}
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
