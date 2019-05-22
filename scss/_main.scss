@@ -5,7 +5,10 @@ header nav{
     background-size: 100% 250px;
 }
 
-.footer{
-    height: 200px;
+footer{
     width: 100%;
+    & img{
+        display: block;
+        width: 100%;    
+    }
 }
