@@ -3,7 +3,13 @@ body{
 	justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-family: $main-font;  
+    margin: 0;
+    font-family: $main-font; 
+}
+
+header nav{
+    height: 313px;
+    background: url("../img/logo2.png");
 }
 
 .titre{

@@ -3,7 +3,6 @@ nav ul{
     padding: 0px;
     margin: 0px;
     list-style-type: none;
-    background-color: #000000;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -14,14 +13,13 @@ nav li {
     height: 40px;
     margin: 0px;
     padding: 0px;
-    border-right: 1px solid #000000;
     text-align: center;
     line-height: 40px;
 }
 nav li a{
     display: block;
     text-decoration: none;
-    color: #ffffff;
+    color: #070707;
 }
 nav li :hover{
     background-color: #3388BB
