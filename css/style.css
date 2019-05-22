@@ -9,13 +9,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-header nav {
-  height: 313px;
-  background: url("../img/logo2.png");
-  background-repeat: no-repeat;
-  background-size: 100% 313px;
-}
-
 .titre {
   text-align: center;
   margin-top: 20px;
@@ -132,10 +125,12 @@ input[type=radio]:checked + .radio-civ {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-  /* Ouais, j'avais la flemme de crée une nouvelle variable... */ }
-  #next-button:hover,
-  .prev-button:hover {
-    background-color: #1e90ff; }
+  /* Ouais, j'avais la flemme de crée une nouvelle variable... */
+}
+#next-button:hover,
+.prev-button:hover {
+  background-color: #1e90ff;
+}
 
 nav ul {
   display: flex;
@@ -165,6 +160,18 @@ nav li a {
 
 nav li :hover {
   background-color: #3388BB;
+}
+
+header nav {
+  height: 313px;
+  background: url("../img/logo2.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 313px;
+}
+
+.footer {
+  height: 200px;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=style.css.map */
