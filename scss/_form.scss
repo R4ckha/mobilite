@@ -122,7 +122,8 @@ input[type=radio]:checked + .radio-civ{
     }
 }
 
-#next-button {
+#next-button,
+.prev-button{
     display: block;
     margin:30px 0;
     padding: 10px 40px;
