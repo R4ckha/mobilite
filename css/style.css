@@ -171,6 +171,7 @@ nav li :hover {
 header {
   background: #c1f3f8;
   width: 100%;
+  position: relative;
 }
 header img {
   width: 100%;
