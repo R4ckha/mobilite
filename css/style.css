@@ -208,4 +208,46 @@ footer {
   margin-top: 50px;
 }
 
+section {
+  margin: 15%;
+}
+
+.video {
+  text-align: center;
+}
+
+aside {
+  float: right;
+  margin-top: -390px;
+  margin-right: 15%;
+}
+
+section, aside {
+  border: 2px solid black;
+  padding: 2%;
+}
+
+.rdv {
+  margin-right: 55%;
+}
+
+h2 {
+  color: #6DBCDB;
+  font-size: 2.5em;
+}
+
+button {
+  margin-left: 30%;
+}
+
+#mdp {
+  display: none;
+}
+
+#mdp:target {
+  display: table;
+  border: 2px solid red;
+  padding: 3%;
+}
+
 /*# sourceMappingURL=style.css.map */

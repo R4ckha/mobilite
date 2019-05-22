@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="style.css">
+      <title>Accueil formulaire</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+  </head>
+
+<header>
+
+
+    <nav>
+      <ul class="menu">			
+        <li><a href="Accueil">Accueil</a></li>				 				   
+        <li><a href="Anpep">Anpep</a></li>				   
+        <li><a href="Formation">Formation</a></li>					   
+        <li><a href="Entreprises">Entreprises</a></li>
+        <li><a href="Accompagnements">Accompagnements</a></li>
+        <li><a href="Actualités">Actualités</a></li>
+        <li><a href="Espace Ressources">Espace Ressources</a></li>				 
+      </ul>	   		
+    </nav>
+    <img src="img/banderole.png" alt="banderole">
+    <div class="logo">
+      <img src="img/logo.png" alt="logo">
+    </div>
+  </header>
+
+</header>
+<body>        
+
+<section class="video">
+  
+  <h2>Vidéo présentation</h2>
+<video controls src="videos/presentation.mp4" width="80%">Présentation</video>
+
+</section>
+<section class="rdv">
+
+  <h2>Prenez rendez-vous</h2>
+
+  <button type="submit">Cliquez ici</button>
+
+
+</section> 
+<aside>
+  <h2>Espace conseiller</h2>
+
+  <a href="#mdp"><button type="submit">Formulaire</button></a>
+
+    <div id="mdp">
+  <form action="formulaire.php" method="post">
+
+
+    <label for="name">Mot de passe :</label>
+    <input type="password" id="password" name="password">
+
+    
+  <div class="button">
+
+    <button type="submit">Envoyer</button>
+
+   </div>
+   </div>
+
+   </form>  
+
+</aside>
+
+<footer>
+
+  <hr>
+
+    <div><p>@anpep. réalisé par les stagiaires de la session e-commerce de décembre 2018</p></div>
+        
+</footer>
+
+</body>
+</html>
