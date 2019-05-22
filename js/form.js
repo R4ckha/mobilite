@@ -5,6 +5,7 @@ window.onload = () => {
 	// Selection du bouton suivant
 	let nextButton = document.querySelector('#next-button'),
 		situation = document.querySelector('#situation'),
+		previousButton = document.querySelectorAll('.prev-button'),
 		buttonParent = nextButton.parentElement.parentElement;
 
 	// On écoute l'evenement 'click' sur le bouton
@@ -15,6 +16,15 @@ window.onload = () => {
 		buttonParent.style.display = "none";
 		buttonParent.nextElementSibling.style.display = "flex";
 	});
+
+	// Boucle pour parcourir les boutons back
+	for (var i = 0; i < previousButton.length; i++) {
+		previousButton[i].addEventListener('click', function (e) {
+			let actualStep = this.parentElement.parentElement,
+				previousStep = actualStep;
+		});
+	}
+
 
 	situation.onchange = function(){
 		let options = this.getElementsByTagName("option"),
