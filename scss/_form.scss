@@ -103,10 +103,10 @@ input[type=radio]:checked + .radio-civ{
     // background: #139ee0; <-- Ici ont as pas besoin de définir un background car il va hérité de la couleur de la classe bubble-text
     &:after {
         content: "";
+        top: 65px;
         position: absolute;
         border-top: 20px solid $question-background-color;
         border-right: 20px solid transparent;
-        border-left: 20px solid transparent;
     }
 }
 
@@ -115,12 +115,11 @@ input[type=radio]:checked + .radio-civ{
     background: $reponse-background-color; // Ici le background est défini, car on veut pas utiliser la couleur de la classe bubble-text
     &:after {
         content: "";
+        top: 49px;
 		position: absolute;
-        border-top: 40px solid $reponse-background-color;
-        border-right: 40px solid transparent;
-        border-left: 40px solid transparent;
-		right: 0;
-		z-index: -1;
+        border-top: 20px solid $reponse-background-color;
+        border-left: 20px solid transparent;
+		right: 20px;
     }
 }
 

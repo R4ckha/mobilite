@@ -101,10 +101,10 @@ input[type=radio]:checked + .radio-civ {
 
 .bubble-question:after {
   content: "";
+  top: 65px;
   position: absolute;
   border-top: 20px solid #59C6D1;
   border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
 }
 
 .bubble-reponse {
@@ -113,12 +113,11 @@ input[type=radio]:checked + .radio-civ {
 }
 .bubble-reponse:after {
   content: "";
+  top: 49px;
   position: absolute;
-  border-top: 40px solid #9DD3D9;
-  border-right: 40px solid transparent;
-  border-left: 40px solid transparent;
-  right: 0;
-  z-index: -1;
+  border-top: 20px solid #9DD3D9;
+  border-left: 20px solid transparent;
+  right: 20px;
 }
 
 #next-button,
