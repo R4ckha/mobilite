@@ -130,18 +130,10 @@ input[type=radio]:checked + .radio-civ {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-<<<<<<< HEAD
   /* Ouais, j'avais la flemme de crée une nouvelle variable... */ }
   #next-button:hover,
   .prev-button:hover {
     background-color: #1e90ff; }
-=======
-  /* Ouais, j'avais la flemme de crée une nouvelle variable... */
-}
-#next-button:hover {
-  background-color: #1e90ff;
-}
->>>>>>> 49c38500533fa2a64afd39cd6119e9416644eb00
 
 nav ul {
   display: flex;
