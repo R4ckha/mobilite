@@ -10,13 +10,14 @@ body{
 .titre{
     text-align: center ;
     margin-top: 20px;
+    color: white;
+    margin: 100px 0;
 }
 
 form{
+    height: 100vh;
     width: 40%;
-    margin-top: 30px;
     background: $form-background-color;
-    margin-bottom: 250px;
 }
 
 input[type=text],
@@ -49,7 +50,12 @@ label {
     &:hover{
         cursor: pointer;
     }
+    &.radio-child{
+        background: none;
+    }
 }
+
+
 
 input[type=radio]:checked + .radio-civ{
     background: $next-btn-background-color;
