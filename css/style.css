@@ -17,7 +17,7 @@ body {
   margin: 100px 0;
 }
 
-form {
+.form {
   height: 100vh;
   width: 40%;
   background: #3b4f51;
@@ -210,34 +210,23 @@ footer {
 
 section {
   margin: 15%;
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
 }
 
 .video {
   text-align: center;
 }
 
-aside {
-  float: right;
-  margin-top: -390px;
-  margin-right: 15%;
-}
-
-section, aside {
-  border: 2px solid black;
-  padding: 2%;
-}
-
-.rdv {
-  margin-right: 55%;
-}
-
 h2 {
   color: #6DBCDB;
   font-size: 2.5em;
-}
-
-button {
-  margin-left: 30%;
 }
 
 #mdp {

@@ -1,18 +1,20 @@
-
 section {
 	margin: 15%;
+	border: 2px solid black;
+	padding: 30px;
+	margin-top: 50px;
 }
+
+.sections{
+	display: flex;
+	flex-direction: row;
+}
+
 .video {
 	text-align: center;
 }
 
-section{
-	border: 2px solid black;
-	padding: 2%;
-}
-.rdv {
-	margin-right: 55%;
-}
+
 h2 {
 	color: #6DBCDB;
 	font-size: 2.5em;
