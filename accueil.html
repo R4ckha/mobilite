@@ -4,7 +4,6 @@
 
   <head>
       <meta charset="utf-8" />
-      <link rel="stylesheet" href="style.css">
       <title>Accueil formulaire</title>
       <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
   </head>
@@ -38,37 +37,46 @@
 <video controls src="videos/presentation.mp4" width="80%">Présentation</video>
 
 </section>
-<section class="rdv">
 
-  <h2>Prenez rendez-vous</h2>
+<div class="grid-container">
+  <div class="grid-x grid-padding-x">
+    <div class="large-5 cell">
+    <section>
 
-  <button type="submit">Cliquez ici</button>
+      <h2>Prenez rendez-vous</h2>
 
-
-</section> 
-<aside>
-  <h2>Espace conseiller</h2>
-
-  <a href="#mdp"><button type="submit">Formulaire</button></a>
-
-    <div id="mdp">
-  <form action="formulaire.php" method="post">
+      <button type="submit">Cliquez ici</button>
 
 
-    <label for="name">Mot de passe :</label>
-    <input type="password" id="password" name="password">
+    </section> 
+    </div>
+  </div>
 
-    
-  <div class="button">
+<div class="grid-x grid-padding-x">
+  <div class="large-5 cell">
+    <section >
+      <h2>Espace conseiller</h2>
 
-    <button type="submit">Envoyer</button>
+      <a href="#mdp"><button type="submit">Formulaire</button></a>
 
-   </div>
-   </div>
+        <div id="mdp">
+      <form action="formulaire.php" method="post">
 
-   </form>  
 
-</aside>
+        <label for="name">Mot de passe :</label>
+        <input type="password" id="password" name="password">
+
+        
+
+        <button type="submit">Envoyer</button>
+
+      </div>
+
+      </form>  
+
+    </section>
+</div>
+</div>
 
 <footer>
 
